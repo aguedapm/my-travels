@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Travel from './components/Travel';
+import Travels from './components/Travels';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         photo = "https://amp.businessinsider.com/images/5540205f6da8119e58ad0cec-1334-1000.jpg"
         distance = "1275 km"
       />
+      <Travels/>
       </div>
     );
   }
